@@ -1,0 +1,1 @@
+# csp-timetable-generator
