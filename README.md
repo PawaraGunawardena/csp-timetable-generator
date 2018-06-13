@@ -41,8 +41,7 @@ Arrange the subjects list in a way, while giving priority to compulsory subjects
 	
 	•	For optional subjects there exist at least one solution from above two selections. 
 
-	
-	
+
 	Problem 2 – 
 	
 The problem is assigning a room for each (subject, timeslot) that got from the problem-1. Two subjects with same timeslot cannot get into the same room.
