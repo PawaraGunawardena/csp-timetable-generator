@@ -10,7 +10,7 @@ The Problem have two major types of constraints when assigning a single timeslot
 So the given solution divide the problem into two major constraint satisfaction problems.
 Assigning Timeslots for Subjects is first and Assigning rooms for (Subject, Timeslot) Combinations is the second. 
 
-	Problem 1 – 
+Problem 1 – 
 
 The first problem is assigning a Timeslot for each subject, with no two compulsory subjects in the same timeslot.  
 
@@ -42,7 +42,7 @@ Arrange the subjects list in a way, while giving priority to compulsory subjects
 	•	For optional subjects there exist at least one solution from above two selections. 
 
 
-	Problem 2 – 
+Problem 2 – 
 	
 The problem is assigning a room for each (subject, timeslot) that got from the problem-1. Two subjects with same timeslot cannot get into the same room.
 
