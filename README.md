@@ -1,3 +1,55 @@
+This is a Constraint Satisfaction Problem to develop a timetable for a semester. 
+There is a list of subjects, a set of possible time slots for each subject and a set of rooms. 
+Some subjects are compulsory some are optional.
+
+Following are the constraints to satisfy. 
+
+	1. A given subjects can be assigned only to one of the possible time slots given for that subject. 
+	
+	2. Two compulsory subjects cannot be in the same time slot (optional subjects may). 
+	
+	3. Two subjects cannot be assigned to the same room if they are assigned to the same time slot. 
+	
+Need to assign each subject a time slot and a room. Solution has the source code and exe file. 
+This program take two command line arguments; <input_file_name> and <output_file_name>
+
+Given program take a comma separated values (CSV) file of the form given below as input and output a CSV file of the form given below. 
+	
+	Input.csv -
+
+	Subject_1, c, M1, M3, Tu2
+	
+	Subject_2, o, Tu1, W1, Th2
+	
+	Subject_3, c, M1, M3, W1
+	
+	...
+	
+	Subject_n, o, M3, Th2
+	
+	R1, R2, R3
+	
+1st column: subject name
+
+2nd column: c- compulsory, o-optional
+
+3rd column onwards: possible time slots M1 - Monday slot 1, M3 - Monday slot 3, Tu2 - Tuesday slot 2
+
+etc.
+
+	Output.csv -
+
+	Subject_1, M1, R1
+	
+	Subject_2, Tu1, R3
+	
+	Subject_3, M3
+	
+	...
+	
+	Subject_n, Th2, R1
+	
+
 There is a constraint that says only one possible time slot exists for one subject. 
 So the solution consisting with assigning one possible time slot for each subject. 
 
